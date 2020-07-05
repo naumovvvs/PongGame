@@ -1,0 +1,35 @@
+C:\Users\user\source\repos\PongGame\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\user\source\repos\PongGame\PongGame\bin\Debug\PongGame.exe
+C:\Users\user\source\repos\PongGame\PongGame\bin\Debug\PongGame.pdb
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.csprojAssemblyReference.cache
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.FormPong.resources
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.csproj.GenerateResource.cache
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.exe
+C:\Users\user\source\repos\PongGame\PongGame\obj\Debug\PongGame.pdb
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\bin\Debug\PongGame.exe
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\bin\Debug\PongGame.pdb
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.csprojAssemblyReference.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.FormPong.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.csproj.GenerateResource.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.csproj.CoreCompileInputs.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.exe
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.pdb
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.TwoPlayer.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.Menu.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.Help.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.csprojAssemblyReference.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.FormPong.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Help.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Menu.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.TwoPlayer.resources
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.csproj.GenerateResource.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.csproj.CoreCompileInputs.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.exe
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.pdb
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.exe
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.pdb
