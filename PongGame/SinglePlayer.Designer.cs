@@ -152,8 +152,8 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SinglePlayer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.FormPong_Load);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FormPong_KeyUp);
+            this.Load += new System.EventHandler(this.SinglePlayer_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.SinglePlayer_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.picComputer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDivider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).EndInit();

@@ -47,24 +47,6 @@ namespace PongGame
             goalPlayer = new SoundPlayer("goal.wav");
         }
 
-        private void FormPong_Load(object sender, EventArgs e)
-        {
-            this.Text = "Player: " + pScore + " | Computer: " + cScore;        //ke go prikazuva rezultatot 
-            picPlayer.Left = 0;
-            picPlayer.Top = (ClientSize.Height - picPlayer.Height) / 2;         //visinata na prozorecot - visinata na panelot za da se pozicionira na sredina
-            picComputer.Top = (ClientSize.Height - picComputer.Height) / 2;
-            picComputer.Left = (ClientSize.Width - picComputer.Width);          //poziciniranje na panelot na kompjuterot 
-
-            picDivider.Top = 0;                                                  //pozicioniranje na linijata na sredina   
-            picDivider.Height = ClientSize.Height;
-            picDivider.Left = (ClientSize.Width - picDivider.Width) / 2;
-
-            picBall.Left = (ClientSize.Width / 2) + 20;                               //startna pozicija na topkata, nekade na sredina i plus 20 pikseli vo desno za da ne e apla sredina
-            picBall.Top = (ClientSize.Height - picBall.Height) / 2;                   //ja pozicionira topkata tocno na sredina (ni pogore ni podole)
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;                         //ja onevozmozuva opcijata za resize na prozorecot
-            this.MaximizeBox = false;                                                  //ja onevozmozuva opcijata: "otvori na cel ekran"
-        }
-
         private void timer_Tick(object sender, EventArgs e)
         {
             this.Text = "Player: " + pScore + " | Computer: " + cScore;
@@ -155,18 +137,36 @@ namespace PongGame
             }
         }
 
-        private void FormPong_KeyUp(object sender, KeyEventArgs e)
+        private void SinglePlayer_KeyUp(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.W)
+            if (e.KeyCode == Keys.W)
             {
                 goUp = true;
                 goDown = false;
             }
-            if(e.KeyCode == Keys.S)
+            if (e.KeyCode == Keys.S)
             {
                 goDown = true;
                 goUp = false;
             }
+        }
+
+        private void SinglePlayer_Load(object sender, EventArgs e)
+        {
+            this.Text = "Player: " + pScore + " | Computer: " + cScore;        //ke go prikazuva rezultatot 
+            picPlayer.Left = 0;
+            picPlayer.Top = (ClientSize.Height - picPlayer.Height) / 2;         //visinata na prozorecot - visinata na panelot za da se pozicionira na sredina
+            picComputer.Top = (ClientSize.Height - picComputer.Height) / 2;
+            picComputer.Left = (ClientSize.Width - picComputer.Width);          //poziciniranje na panelot na kompjuterot 
+
+            picDivider.Top = 0;                                                  //pozicioniranje na linijata na sredina   
+            picDivider.Height = ClientSize.Height;
+            picDivider.Left = (ClientSize.Width - picDivider.Width) / 2;
+
+            picBall.Left = (ClientSize.Width / 2) + 20;                               //startna pozicija na topkata, nekade na sredina i plus 20 pikseli vo desno za da ne e apla sredina
+            picBall.Top = (ClientSize.Height - picBall.Height) / 2;                   //ja pozicionira topkata tocno na sredina (ni pogore ni podole)
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;                         //ja onevozmozuva opcijata za resize na prozorecot
+            this.MaximizeBox = false;                                                  //ja onevozmozuva opcijata: "otvori na cel ekran"
         }
 
         private void pbSPpause_Click(object sender, EventArgs e)
