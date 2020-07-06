@@ -50,7 +50,7 @@ Windows Forms Project by: Strasho Naumov and Leonid Stojkovski
 ### 2. How to play 
 ### 2.1 New Game 
  
-On the main window you have the ability to start a New Game against the PC, to start a game for Two Players an already saved game, or to view the Help window for game details.
+On the main window you have the ability to start a New Game against the PC, to start a game for Two Players, or to view the Help window for game details.
 
 #License This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
