@@ -21,7 +21,6 @@ C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.T
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.Menu.resources
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame\PongGame\obj\Debug\PongGame.Help.resources
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.csprojAssemblyReference.cache
-C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.FormPong.resources
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Help.resources
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Menu.resources
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.Properties.Resources.resources
@@ -33,3 +32,9 @@ C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\D
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.exe.config
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.exe
 C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\PongGame.pdb
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\Interop.WMPLib.dll
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.csproj.ResolveComReference.cache
+C:\Users\Strashe Naumov\Desktop\VP Proekt\PongGame (leo)\PongGame\PongGame\obj\Debug\PongGame.SinglePlayer.resources

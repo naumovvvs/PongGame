@@ -34,7 +34,9 @@
             this.btnHelp = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.backMusicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backMusicPlayer)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSinglePlayer
@@ -103,12 +105,23 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Pong Game";
             // 
+            // backMusicPlayer
+            // 
+            this.backMusicPlayer.Enabled = true;
+            this.backMusicPlayer.Location = new System.Drawing.Point(23, 74);
+            this.backMusicPlayer.Name = "backMusicPlayer";
+            this.backMusicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("backMusicPlayer.OcxState")));
+            this.backMusicPlayer.Size = new System.Drawing.Size(75, 23);
+            this.backMusicPlayer.TabIndex = 6;
+            this.backMusicPlayer.Visible = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(531, 553);
+            this.Controls.Add(this.backMusicPlayer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnHelp);
@@ -122,6 +135,7 @@
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backMusicPlayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,5 +148,6 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private AxWMPLib.AxWindowsMediaPlayer backMusicPlayer;
     }
 }

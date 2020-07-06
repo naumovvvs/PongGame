@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Media;
 
 namespace PongGame
 {
@@ -18,6 +19,10 @@ namespace PongGame
         public Menu()
         {
             InitializeComponent();
+            // vo pozadina pustame background music
+            backMusicPlayer.URL = "backgroundMusic.wav";
+            backMusicPlayer.Ctlcontrols.play();
+            backMusicPlayer.settings.setMode("Loop", true);
         }
 
         private void Menu_Load(object sender, EventArgs e)
@@ -30,7 +35,6 @@ namespace PongGame
         // ili da ima single player i 2 player istovremeno
         private bool alreadyPlaying()
         {
-
             // site otvoreni formi
             fc = Application.OpenForms;
 
@@ -38,7 +42,7 @@ namespace PongGame
             {
                 // iteriraj niz otvorenite formi i proveri dali se igra 2 player ili single player
                 // ako se igra ne startuvaj
-                if (frm.Name == "TwoPlayer" || frm.Name == "FormPong")
+                if (frm.Name == "TwoPlayer" || frm.Name == "SinglePlayer")
                 {
                     return true;
                 }
@@ -52,7 +56,7 @@ namespace PongGame
             // ako ne se igra, startuvaj single player
             if (!alreadyPlaying())
             {
-                FormPong single = new FormPong();
+                SinglePlayer single = new SinglePlayer();
                 single.Show();
             }
         }
