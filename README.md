@@ -10,7 +10,7 @@ Windows Forms Project by: Strasho Naumov and Leonid Stojkovski
 ### 2. Упатство за користење
 
 2.1. Нова игра
- На почетниот прозорец при стартување на апликацијата имаме можност да избереме игра против компјутерот или игра за двајца, како и Helpдел каде детално ни се објаснети правилата и контролите на играта.
+ На почетниот прозорец при стартување на апликацијата имаме можност да избереме игра против компјутерот или игра за двајца, како и Help дел каде детално ни се објаснети правилата и контролите на играта.
 
 ### 3. Преставување на проблемот
 
@@ -41,3 +41,17 @@ Windows Forms Project by: Strasho Naumov and Leonid Stojkovski
 <code>timer1_tick();</code> - функција во класата Тwo player прототип на timer_Tick(); со тоа што е додадена функција за палката на играч 2.
 
 <code> TwoPlayer_KeyUp();</code> - со оваа функција се дефинира движење на палките и нивните соодветни копчиња нагоре и надоле (W,S или стрелка нагоре и стрелка надоле)
+
+ ### English / Македонски 
+ ### 1. Description 
+ This application that we are developing is named Pong Game. There are two pannels that are controlled by the player/players and the purpose is to score goals by hitting the ball.
+
+ 
+### 2. How to play 
+### 2.1 New Game 
+ 
+On the main window you have the ability to start a New Game against the PC, to start a game for Two Players an already saved game, or to view the Help window for game details.
+
+#License This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
