@@ -39,7 +39,7 @@ Windows Forms Project by: Strasho Naumov and Leonid Stojkovski
 
 <img src="PongGame/Images/gameOver.png" alt="Game over screen" height="400">
 
-##### 3.1.3 Twoplayer
+##### 3.1.3 TwoPlayer
 
 Со оваа класа се претставува делот кој што овозможува игра за двајца, односно ни се овозможува игра каде што ќе играте со вашиот пријател а не против компјутерот, а правилата остануваат исти како и во другиот мод, т.е играта ќе заврши кога еден од играчите ќе постигне 5 голови. 
 
